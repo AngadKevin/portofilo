@@ -1,0 +1,31 @@
+*{
+    border: solid;
+
+}
+p{
+    font-style: oblique;
+    font-size: larger;
+}
+.header{
+    background-image: url("./image.jpg");
+}
+.icons{
+    background-image: url("./image.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.games{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.element{
+    background-color:skyblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+.element:hover{
+    transform: scale(1.5);
+}
